@@ -1,9 +1,30 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    padding-top: 1.5%;
 }
 
 h1{
     font-family: sans-serif ;
     font-weight: bolder;
+    color: #2041fe;
+}
+
+#LOGO{
+    float: left;
+    height: 50px;
+    width: auto;
+}
+
+#pesquisa-barra{
+    border: 2px solid #2041fe;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
