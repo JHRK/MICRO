@@ -29,7 +29,7 @@ include_once './header.php'
               </section>
 
       </main>   
-      <aside class="col-4">
+      <aside class="container-fluid col-4">
         <form action="./select.php">
           <input type="radio" id="html" name="fav_language" value="oplo">
         </form>
