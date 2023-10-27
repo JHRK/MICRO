@@ -17,7 +17,7 @@
           <h1><a href="index.html" style="margin-left: 8%; font-family:Work Sans; text-decoration:none; color:#ffffff; background-color: #2041fe; ">••MICRO••</a></h1>
           <div class="col-12">
                 <nav>
-                  <form><input id="pesquisa-barra" type="search" placeholder="Células, Fungos..." size="162" style="margin-top: 2%;"></form></nav>
+                  <form><input id="pesquisa-barra" type="search" action="selected.php" method="GET" placeholder="Células, Fungos..." size="162" style="margin-top: 2%;"></form></nav>
               </div>
             </nav>
           </div>
