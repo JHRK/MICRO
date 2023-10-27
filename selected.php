@@ -2,4 +2,4 @@
 include_once './header.php'
 ?> 
 
- <?php echo $_GET["Filtros"]; ?><br>
+ <?php echo $_GET["Filtros"]; ?>
