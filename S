@@ -1,0 +1,16 @@
+TAG plano:
+
+Preciso usar o $POST do form de filtros no PHP, chamando ele e colocando uma condição.
+
+<?php
+   $con =mysql_connect("localhost", "root" , "");
+   $sdb= mysql_select_db("Banco_Imagens",$con);
+   $TAGs = ~PUXAR OS DADOS DO FORM E TRANSFORMAR EM VARIÁVEL;
+   $sql = "SELECT * FROM `SRC` WHERE "AS OPÇÕES TAGS EM FILTROS ENVIAM VALORES COMO T1,T2,... ENTÃO O WHERE DEVE FILTRAR ESSES VALORES COM $TAG=T1,T2 "";
+   $mq = mysql_query($sql) or die ("not working query");
+   $row = mysql_fetch_array($mq) or die("line 44 not working");
+   $s=$row['photo'];
+   echo $row['photo'];
+
+   echo '<img src="'.$s.'" alt="HTML5 Icon" style="width:128px;height:128px">';
+   ?>
