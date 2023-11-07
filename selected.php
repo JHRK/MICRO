@@ -4,6 +4,12 @@ include_once './header.php'
 
  <?php 
 
-var_dump($_POST)
+
+
+print_r($_POST)
  
  ?>
+
+<?php 
+include_once './footer.php'
+?>
