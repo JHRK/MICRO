@@ -18,41 +18,41 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `bd_projeto`
+-- Banco de dados: 'bd_projeto'
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `bd_imagens`
+-- Estrutura da tabela 'bd_imagens'
 --
 
-CREATE TABLE `bd_imagens` (
-  `ID` int(11) NOT NULL,
-  `Descrição` varchar(45) NOT NULL,
-  `TAG` varchar(45) NOT NULL,
-  `SRC` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE 'bd_imagens' (
+  'ID' int(11) NOT NULL,
+  'Descrição' varchar(45) NOT NULL,
+  'TAG' varchar(45) NOT NULL,
+  'SRC' varchar(100) NOT NULL
+); ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Índices para tabelas despejadas
 --
 
 --
--- Índices para tabela `bd_imagens`
+-- Índices para tabela 'bd_imagens'
 --
-ALTER TABLE `bd_imagens`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE 'bd_imagens'
+  ADD PRIMARY KEY ('ID');
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
 --
--- AUTO_INCREMENT de tabela `bd_imagens`
+-- AUTO_INCREMENT de tabela 'bd_imagens'
 --
-ALTER TABLE `bd_imagens`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE 'bd_imagens'
+  MODIFY 'ID' int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

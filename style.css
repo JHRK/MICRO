@@ -17,12 +17,14 @@ h1,h2{
 }
 
 
-#pesquisa-barra{
+input, input:hover{
     border: 2px solid #2041fe;
     border-left: none;
     border-right: none;
     border-top: none;
 }
+
+
 
 a {
     color: #000000;
@@ -33,4 +35,8 @@ a:hover {
     color:#2041fe; 
     text-decoration:none!important; 
     cursor:pointer;  
+}
+
+aside h1{
+    margin-top: 2%;
 }
