@@ -10,7 +10,7 @@ header{
     padding-top: 1.5%;
 }
 
-h1{
+h1,h2{
     font-family: sans-serif ;
     font-weight: bolder;
     color: #2041fe;
