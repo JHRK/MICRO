@@ -44,7 +44,7 @@ include_once './header.php'
           <label for="T5">Inorgânicos</label><br>
           <input type="submit" action="./selected.php" method="GET" for="Filtros" required>
         </form>
-        
+
       </aside>
 </div>
   
