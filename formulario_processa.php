@@ -3,7 +3,7 @@
     $host="localhost";
     $usuario="root";
     $senha="";
-    $banco="bd_projeto";
+    $banco="banco_teste";
 
     $mysqli=new mysqli($host,$usuario,$senha,$banco);
 
@@ -19,7 +19,7 @@ $mensagem = $_POST['mensagem'];
 $algo = $_POST['algo'];
  
 
-$sql = "INSERT INTO bd_imagens (ID,Descrição,TAG,SRC) VALUES ('$TAGS', '$email', '$mensagem','$algo')";
+$sql = "INSERT INTO teste_sql (id,src,tht,ref) VALUES ('$TAGS', '$email', '$mensagem','$algo')";
  
 if ($mysqli->query($sql) === TRUE) {
     echo "Dados inseridos com sucesso!";

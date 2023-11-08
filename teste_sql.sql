@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 01-Nov-2023 às 20:28
+-- Tempo de geração: 08-Nov-2023 às 20:50
 -- Versão do servidor: 10.4.17-MariaDB
 -- versão do PHP: 7.3.27
 
@@ -18,20 +18,20 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `banco_imagens`
+-- Banco de dados: `banco_teste`
 --
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `cad_clientes`
+-- Estrutura da tabela `teste_sql`
 --
 
-CREATE TABLE `cad_clientes` (
-  `id_clientes` int(11) NOT NULL,
-  `Nome` varchar(40) NOT NULL,
-  `Email` varchar(40) NOT NULL,
-  `Mensagem` varchar(100) DEFAULT NULL
+CREATE TABLE `teste_sql` (
+  `id` int(11) NOT NULL,
+  `src` varchar(45) NOT NULL,
+  `tht` varchar(45) NOT NULL,
+  `ref` varchar(45) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -39,20 +39,20 @@ CREATE TABLE `cad_clientes` (
 --
 
 --
--- Índices para tabela `cad_clientes`
+-- Índices para tabela `teste_sql`
 --
-ALTER TABLE `cad_clientes`
-  ADD PRIMARY KEY (`id_clientes`);
+ALTER TABLE `teste_sql`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
 --
--- AUTO_INCREMENT de tabela `cad_clientes`
+-- AUTO_INCREMENT de tabela `teste_sql`
 --
-ALTER TABLE `cad_clientes`
-  MODIFY `id_clientes` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `teste_sql`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
