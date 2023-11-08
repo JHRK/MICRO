@@ -32,17 +32,17 @@ include_once './header.php'
       <aside class="container-fluid col-4">
         <h1>Filtros</h1>
         <form action="./selected.php" name="Filtros" method="POST" >
-          <input type="radio" id="html" name="T1" value="Eletrônico" required>
+          <input type="radio" id="html" name="T1" value="Eletrônico">
           <label for="T1">Eletrônico</label><br>
-          <input type="radio" id="html" name="T2" value="Óptico" required>
+          <input type="radio" id="html" name="T2" value="Óptico">
           <label for="T2">Óptico</label><br>
-          <input type="radio" id="html" name="T3" value="Bactérias" required>
+          <input type="radio" id="html" name="T3" value="Bactérias">
           <label for="T3">Bactérias</label><br>
-          <input type="radio" id="html" name="T4" value="Protozoários" required>
+          <input type="radio" id="html" name="T4" value="Protozoários">
           <label for="T4">Protozoários</label><br>
-          <input type="radio" id="html" name="T5" value="Inorgânicos" required>
+          <input type="radio" id="html" name="T5" value="Inorgânicos">
           <label for="T5">Inorgânicos</label><br>
-          <input type="submit" action="./selected.php" method="GET" for="Filtros" required>
+          <input type="submit" action="./selected.php" method="GET" for="Filtros" >
         </form>
 
       </aside>

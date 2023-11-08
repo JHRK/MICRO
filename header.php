@@ -18,8 +18,8 @@
           <h1><a href="index.php" style="margin-left: 8%; font-family:Work Sans; text-decoration:none; color:#ffffff; background-color: #2041fe; ">••MICRO••</a></h1>
           <div class="col-12">
                 <nav>
-                  <form id="pesquisa_barra" type="search" method="post"  action="index.php?searching=true" style="margin-top: 2%;">
-                    <input type="search" placeholder="Células, Fungos..." name="pesquisa_sub" size="150" required >
+                  <form id="pesquisa_barra" type="search" method="post"  action="searched.php" style="margin-top: 2%;">
+                    <input type="search"  placeholder="Células, Fungos..." name="pesquisa_sub" size="150" required >
                   </form>
                 </nav>
               </div>

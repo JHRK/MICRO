@@ -1,4 +1,4 @@
-<table><?php
+<?php
               $host="localhost";
               $usuario="root";
               $senha="";
@@ -13,7 +13,7 @@
               }
             
            
-            $wrdsrc="SELECT Nome from Banco_Imagens WHERE Nome LIKE ".$_POST."% ;";
+            $wrdsrc="SELECT Nome from Banco_Imagens WHERE Nome LIKE '%$_POST%' ;";
             $pesquisar=$ir->query($wrdsrc);
 
-          ?></table>
+          ?>
