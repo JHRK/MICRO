@@ -23,7 +23,7 @@ include_once './header.php'
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col-5" style="border-right:5px solid #2041fe"><h2><a href="Microscópios.php">Métodos</a><img src=".\arrow_right_alt_FILL0_wght400_GRAD0_opsz24.png"></h2>
+                  <div class="col-5" style="border-right:5px solid #2041fe"><h2><a href="Microscópios.php">Métodos</a><img src="./Img_Strg/arrow_right_alt_FILL0_wght400_GRAD0_opsz24.png"></h2>
                   <p>Entenda a diferença entre os métodos de observação.</p></div>
                 </div>
               </section>

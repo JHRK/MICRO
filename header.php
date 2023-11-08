@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
     <title>••MICRO••</title>
-    <link rel="icon" type="image/x-icon" href="./img/Logo.png">
+    <link rel="icon" type="image/x-icon" href="./Img_Strg/Logo.png">
   </head>
     <body class="container-fluid">
       
@@ -25,7 +25,6 @@
               </div>
             </nav>
           </div>
-
       </header>
-  
+    
       <div class="row">
