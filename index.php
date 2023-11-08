@@ -5,25 +5,25 @@ include_once './header.php'
               
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col-5" style="border-right:5px solid #2041fe"><h2>Acervo</h2>
+                  <div class="col" ><h2>Acervo</h2>
                   <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col-5" style="border-right:5px solid #2041fe"><h2>Bactérias</h2>
+                  <div class="col" ><h2>Bactérias</h2>
                   <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col-5" style="border-right:5px solid #2041fe"><h2>Tecidos</h2>
+                  <div class="col" ><h2>Tecidos</h2>
                   <p>Imagens de diferentes espécies e estruturas observadas em microscópios.</p></div>
                 </div>
               </section>
               <section class="col-lg-12 mt-3">
                 <div class="row" >
-                  <div class="col-5" style="border-right:5px solid #2041fe"><a href="Microscópios.php"><h2>Métodos</h2></a>
+                  <div class="col" ><a href="Microscópios.php"><h2>Métodos</h2></a>
                   <p>Entenda a diferença entre os métodos de observação.</p></div>
                 </div>
               </section>

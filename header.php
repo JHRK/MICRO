@@ -20,7 +20,7 @@
           <div class="col-12">
                 <nav>
                   <form id="pesquisa_barra" type="search" method="post"  action="searched.php" style="margin-top: 2%;">
-                    <input type="search"  placeholder="Células, Fungos..." name="pesquisa_sub" size="150" required >
+                    <input type="search"  placeholder="Células, Fungos..." name="pesquisa_sub" size="full" required >
                   </form>
                 </nav>
               </div>
