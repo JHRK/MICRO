@@ -17,7 +17,7 @@ include_once './header.php'
                 </div>
                 <img src="./Img_Strg/pawel-czerwinski-JdtUKqGdqw8-unsplash.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #2041fe;">
 </div>
-<div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/Group 14 (1).png"><img src="./Img_Strg/NewTab.png" style="width:12px; height:15px; margin-left:100%;"></a></div>
+<div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/Group 20.png"><img src="./Img_Strg/NewTab.png" style="width:12px; height:15px; margin-left:100%;"></a></div>
 </section>
 <section class="col-9 mt-3">
                 <div class="row" >
@@ -27,7 +27,7 @@ include_once './header.php'
     </div>
     <img src="./Img_Strg/michael-czGYgzmdYig-unsplash.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #2041fe;">
     </div>
-    <div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/Group 14 (1).png"><img src="./Img_Strg/NewTab.png" style="width:12px; height:15px; margin-left:100%;"></a></div>
+    <div class="Acesso_Esquemas">Acesse o esquema<a href="./Img_Strg/Group 18.png"><img src="./Img_Strg/NewTab.png" style="width:12px; height:15px; margin-left:100%;"></a></div>
 </section>
 <section class="col-9 mt-3">
                 <div class="row" >
