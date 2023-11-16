@@ -9,19 +9,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //Ele precisa buscar com query no BD, com uma variavel. O select está funfando
 
-    $busca = mysql_query("echo "SELECT SRC,Nome FROM `BD_IMAGENS` WHERE Nome LIKE ".$pesquisa.""");
-    SELECT SRC FROM `teste_sql` WHERE Nome LIKE '%Esquema%'
-
-
-
-    if (empty($pesquisa)) {
-      echo "Não funfou.";
-    } else {
-      ;
+    $busca = "SELECT SRC FROM `BD_IMAGENS` WHERE Nome LIKE %".$pesquisa."%";
+    $result = mysqli_query($busca);
+      while($row = mysqli_fetch_array($result)) {
+        echo $row['SRC']; 
     }
-  }
+    echo [$result];
 
- ?>
+}
+?>
 
 <?php 
 include_once './footer.php'
