@@ -6,7 +6,7 @@ SET time_zone = "+00:00";
 
 
 
-CREATE TABLE `BD_IMAGENS` (
+CREATE TABLE `teste_sql` (
   `ID` int(11) NOT NULL,
   `SRC` varchar(45) NOT NULL,
   `Nome` varchar(45) NOT NULL,
@@ -15,17 +15,17 @@ CREATE TABLE `BD_IMAGENS` (
 
 
 
-INSERT INTO `BD_IMAGENS` (`ID`, `SRC`, `Nome`, `TAG`) VALUES
+INSERT INTO `teste_sql` (`ID`, `SRC`, `Nome`, `TAG`) VALUES
 (3, './Img_Strg/Group 14 (1).png', 'Microscópio Óptico Esquema', 'Esquema');
 
 
 
-ALTER TABLE `BD_IMAGENS`
+ALTER TABLE `teste_sql`
   ADD PRIMARY KEY (`ID`);
 
 
 --
-ALTER TABLE `BD_IMAGENS`
+ALTER TABLE `teste_sql`
   MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 

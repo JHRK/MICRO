@@ -31,7 +31,7 @@ include_once './header.php'
       </main>   
       <aside class="container-fluid col-4" style="border:2px solid #2041fe; border-top:none;">
         <h1 >Filtros</h1>
-        <form action="./selected.php" name="Filtros" method="POST" >
+        <form action="./selected.php" name="Filtros" id="Filtros" method="POST" >
           <input type="radio" id="html" name="T1" value="Eletrônico">
           <label for="T1">Eletrônico</label><br>
           <input type="radio" id="html" name="T2" value="Óptico">
@@ -42,6 +42,8 @@ include_once './header.php'
           <label for="T4">Protozoários</label><br>
           <input type="radio" id="html" name="T5" value="Inorgânicos">
           <label for="T5">Inorgânicos</label><br>
+          <input type="radio" id="html" name="T6" value="Esquema">
+          <label for="T6">Esquema</label><br>
           <input type="submit" action="./selected.php" method="GET" for="Filtros" >
         </form>
 

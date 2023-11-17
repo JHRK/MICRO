@@ -3,20 +3,35 @@ include_once './header.php'
 ?> 
 
  <?php 
+              $host="localhost";
+              $usuario="root";
+              $senha="";
+              $banco="banco_teste";
+          
+              $mysqli=new mysqli($host,$usuario,$senha,$banco);
+              
+              
+              if ($mysqli->connect_error) {
+                  die("Erro na conexão: " . $mysqli->connect_error);
+              }
+            
+           
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $pesquisa = $_POST['pesquisa_sub'];
+              if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            $pesquisa = $_POST['pesquisa_sub']; 
+            $wrdsrc="SELECT SRC from teste_sql WHERE Nome LIKE '%".$pesquisa."%' ;";
+            $pesquisar=$mysqli->query($wrdsrc);
+            }
+            
+              while ($row = $pesquisar->fetch_assoc()) {
+                echo $row['SRC'];
+                echo ("<img src=".$row['SRC'].">");
+            }
 
-    //Ele precisa buscar com query no BD, com uma variavel. O select está funfando
+            
+        
+            $mysqli->close();
 
-    $busca = "SELECT SRC FROM `BD_IMAGENS` WHERE Nome LIKE %".$pesquisa."%";
-    $result = mysqli_query($busca);
-      while($row = mysqli_fetch_array($result)) {
-        echo $row['SRC']; 
-    }
-    echo [$result];
-
-}
 ?>
 
 <?php 
