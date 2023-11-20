@@ -54,3 +54,10 @@ aside h1{
     margin-bottom: 6%;
     padding-left: 2%;
 }
+
+.imagens{
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    margin-left: 5%;
+}

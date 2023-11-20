@@ -24,7 +24,7 @@ include_once './header.php'
             
               while ($row = $pesquisar->fetch_assoc()) {
                 echo $row['SRC'];
-                echo ("<img src=".$row['SRC'].">");
+                echo ("<img src=".$row['SRC']." class='imagens'>");
             }
 
             
