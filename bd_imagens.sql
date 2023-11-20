@@ -16,7 +16,7 @@ CREATE TABLE `teste_sql` (
 
 
 INSERT INTO `teste_sql` (`ID`, `SRC`, `Nome`, `TAG`) VALUES
-(3, './Img_Strg/Group 14 (1).png', 'Microscópio Óptico Esquema', 'Esquema');
+(3, './Img_Strg/Varredura.png', 'Microscópio Varredura Esquema', 'Esquema');
 
 
 

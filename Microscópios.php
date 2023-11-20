@@ -37,7 +37,7 @@ include_once './header.php'
                 </div>
                 <img src="./Img_Strg/O-que-e-Microscopia-Eletronica-de-Varredura.jpg" style="height=25px; width:250px; margin-right:2.1%;  box-shadow: 5px 10px #2041fe;">
                 </div>
-                <div class="Acesso_Esquemas" >Acesse o esquema<a href="./Img_Strg/Group 14 (1).png"><img src="./Img_Strg/NewTab.png" style="width:12px; height:15px; margin-left:100%;"></a></div>
+                <div class="Acesso_Esquemas" >Acesse o esquema<a href="./Img_Strg/Varredura.png"><img src="./Img_Strg/NewTab.png" style="width:12px; height:15px; margin-left:100%;"></a></div>
 </section>
 </main>
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
