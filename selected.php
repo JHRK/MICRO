@@ -26,7 +26,6 @@ $selecionar=$mysqli->query($wrdsrc);
 }
 
 while ($row = $selecionar->fetch_assoc()) {
-  echo $row['SRC'];
   echo ("<img src=".$row['SRC']." class='imagens'>");
 }
 
