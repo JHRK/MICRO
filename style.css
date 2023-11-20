@@ -13,12 +13,12 @@ header{
 h1,h2{
     font-family: IBM Plex Sans;
     font-weight: bolder;
-    color: #2041fe;
+    color: #4317f2;
 }
 
 
 input, input:hover{
-    border: 2px solid #2041fe;
+    border: 2px solid #4317f2;
     border-left: none;
     border-right: none;
     border-top: none;
@@ -37,7 +37,7 @@ a {
 }
 
 a:hover {
-    color:#2041fe; 
+    color:#4317f2; 
     text-decoration:none!important; 
     cursor:pointer;  
 }
@@ -48,7 +48,7 @@ aside h1{
 }
 
 .Acesso_Esquemas{
-    background-color:#2041fe;
+    background-color:#4317f2;
     color:White;
     display: flex;
     margin-bottom: 6%;

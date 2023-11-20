@@ -16,7 +16,7 @@
     <body class="container-fluid">
       
       <header class="row">
-          <h1><a href="index.php" style="margin-left: 8%; font-family:IBM Plex Sans; text-decoration:none; color:#ffffff; background-color: #2041fe; ">••MICRO••</a></h1>
+          <h1><a href="index.php" style="margin-left: 8%; font-family:IBM Plex Sans; text-decoration:none; color:#ffffff; background-color: #4317f2; ">••MICRO••</a></h1>
           <div class="col-12">
                 <nav>
                   <form id="pesquisa_barra" type="search" method="post"  action="searched.php" style="margin-top: 2%;">

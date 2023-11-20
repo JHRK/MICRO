@@ -1,7 +1,7 @@
 <?php
 include_once './header.php'
 ?>
-      <main class="container-fluid col-8" style="border:2px solid #2041fe; border-top:none; border-right:none;">
+      <main class="container-fluid col-8" style="border:2px solid #4317f2; border-top:none; border-right:none;">
               
               <section class="col-lg-12 mt-3">
                 <div class="row" >
@@ -29,7 +29,7 @@ include_once './header.php'
               </section>
 
       </main>   
-      <aside class="container-fluid col-4" style="border:2px solid #2041fe; border-top:none;">
+      <aside class="container-fluid col-4" style="border:2px solid #4317f2; border-top:none;">
         <h1 >Filtros</h1>
         <form action="./selected.php" name="Filtros" id="Filtros" method="POST" >
           <input type="radio" id="html" name="T1" value="Eletrônico">
